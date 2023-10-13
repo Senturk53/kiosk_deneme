@@ -1,0 +1,408 @@
+[{
+        "name": "ADANA",
+        "cityLat": 37.0,
+        "cityLong": 35.321333
+    },
+    {
+        "name": "ADIYAMAN",
+        "cityLat": 37.764751,
+        "cityLong": 38.278561
+    },
+    {
+        "name": "AFYONKARAHİSAR",
+        "cityLat": 38.750714,
+        "cityLong": 30.556692
+    },
+    {
+        "name": "AĞRI",
+        "cityLat": 39.626922,
+        "cityLong": 43.021596
+    },
+    {
+        "name": "AKSARAY",
+        "cityLat": 38.36869,
+        "cityLong": 34.03698
+    },
+    {
+        "name": "AMASYA",
+        "cityLat": 40.64991,
+        "cityLong": 35.83532
+    },
+    {
+        "name": "ANKARA",
+        "cityLat": 39.92077,
+        "cityLong": 32.85411
+    },
+    {
+        "name": "ANTALYA",
+        "cityLat": 36.88414,
+        "cityLong": 30.70563
+    },
+    {
+        "name": "ARDAHAN",
+        "cityLat": 41.110481,
+        "cityLong": 42.702171
+    },
+    {
+        "name": "ARTVİN",
+        "cityLat": 41.18277,
+        "cityLong": 41.818292
+    },
+    {
+        "name": "AYDIN",
+        "cityLat": 37.856041,
+        "cityLong": 27.841631
+    },
+    {
+        "name": "BALIKESİR",
+        "cityLat": 39.648369,
+        "cityLong": 27.88261
+    },
+    {
+        "name": "BARTIN",
+        "cityLat": 41.581051,
+        "cityLong": 32.460979
+    },
+    {
+        "name": "BATMAN",
+        "cityLat": 37.881168,
+        "cityLong": 41.13509
+    },
+    {
+        "name": "BAYBURT",
+        "cityLat": 40.255169,
+        "cityLong": 40.22488
+    },
+    {
+        "name": "BİLECİK",
+        "cityLat": 40.056656,
+        "cityLong": 30.066524
+    },
+    {
+        "name": "BİNGÖL",
+        "cityLat": 39.062635,
+        "cityLong": 40.76961
+    },
+    {
+        "name": "BİTLİS",
+        "cityLat": 38.393799,
+        "cityLong": 42.12318
+    },
+    {
+        "name": "BOLU",
+        "cityLat": 40.575977,
+        "cityLong": 31.578809
+    },
+    {
+        "name": "BURDUR",
+        "cityLat": 37.461267,
+        "cityLong": 30.066524
+    },
+    {
+        "name": "BURSA",
+        "cityLat": 40.266864,
+        "cityLong": 29.063448
+    },
+    {
+        "name": "ÇANAKKALE",
+        "cityLat": 40.155312,
+        "cityLong": 26.41416
+    },
+    {
+        "name": "ÇANKIRI",
+        "cityLat": 40.601343,
+        "cityLong": 33.613421
+    },
+    {
+        "name": "ÇORUM",
+        "cityLat": 40.550556,
+        "cityLong": 34.955556
+    },
+    {
+        "name": "DENİZLİ",
+        "cityLat": 37.77652,
+        "cityLong": 29.08639
+    },
+    {
+        "name": "DİYARBAKIR",
+        "cityLat": 37.91441,
+        "cityLong": 40.230629
+    },
+    {
+        "name": "DÜZCE",
+        "cityLat": 40.843849,
+        "cityLong": 31.15654
+    },
+    {
+        "name": "EDİRNE",
+        "cityLat": 41.681808,
+        "cityLong": 26.562269
+    },
+    {
+        "name": "ELAZIĞ",
+        "cityLat": 38.680969,
+        "cityLong": 39.226398
+    },
+    {
+        "name": "ERZİNCAN",
+        "cityLat": 39.75,
+        "cityLong": 39.5
+    },
+    {
+        "name": "ERZURUM",
+        "cityLat": 39.9,
+        "cityLong": 41.27
+    },
+    {
+        "name": "ESKİŞEHİR",
+        "cityLat": 39.776667,
+        "cityLong": 30.520556
+
+    },
+    {
+        "name": "GAZİANTEP",
+        "cityLat": 37.06622,
+        "cityLong": 37.38332
+    },
+    {
+        "name": "GİRESUN",
+        "cityLat": 40.912811,
+        "cityLong": 38.38953
+    },
+    {
+        "name": "GÜMÜŞHANE",
+        "cityLat": 40.438588,
+        "cityLong": 39.508556
+    },
+    {
+        "name": "HAKKARİ",
+        "cityLat": 37.583333,
+        "cityLong": 43.733333
+    },
+    {
+        "name": "HATAY",
+        "cityLat": 36.401849,
+        "cityLong": 36.34981
+    },
+    {
+        "name": "IĞDIR",
+        "cityLat": 39.887984,
+        "cityLong": 44.004836
+    },
+    {
+        "name": "ISPARTA",
+        "cityLat": 37.764771,
+        "cityLong": 30.556561
+    },
+    {
+        "name": "İSTANBUL",
+        "cityLat": 41.0122,
+        "cityLong": 28.976
+    },
+    {
+        "name": "İZMİR",
+        "cityLat": 38.41885,
+        "cityLong": 27.12872
+    },
+    {
+        "name": "KAHRAMANMARAŞ",
+        "cityLat": 37.585831,
+        "cityLong": 36.937149
+    },
+    {
+        "name": "KARABÜK",
+        "cityLat": 41.2061,
+        "cityLong": 32.62035
+    },
+    {
+        "name": "KARAMAN",
+        "cityLat": 37.17593,
+        "cityLong": 33.228748
+    },
+    {
+        "name": "KARS",
+        "cityLat": 40.616667,
+        "cityLong": 43.1
+    },
+    {
+        "name": "KASTAMONU",
+        "cityLat": 41.38871,
+        "cityLong": 33.78273
+    },
+    {
+        "name": "KAYSERİ",
+        "cityLat": 38.73122,
+        "cityLong": 35.478729
+    },
+    {
+        "name": "KIRIKKALE",
+        "cityLat": 39.846821,
+        "cityLong": 33.515251
+    },
+    {
+        "name": "KIRKLARELİ",
+        "cityLat": 41.733333,
+        "cityLong": 27.216667
+    },
+    {
+        "name": "KIRŞEHİR",
+        "cityLat": 39.14249,
+        "cityLong": 34.17091
+    },
+    {
+        "name": "KİLİS",
+        "cityLat": 36.718399,
+        "cityLong": 37.12122
+    },
+    {
+        "name": "KOCAELİ",
+        "cityLat": 40.85327,
+        "cityLong": 29.88152
+    },
+    {
+        "name": "KONYA",
+        "cityLat": 37.866667,
+        "cityLong": 32.483333
+    },
+    {
+        "name": "KÜTAHYA",
+        "cityLat": 39.416667,
+        "cityLong": 29.983333
+    },
+    {
+        "name": "MALATYA",
+        "cityLat": 38.35519,
+        "cityLong": 38.30946
+    },
+    {
+        "name": "MANİSA",
+        "cityLat": 38.619099,
+        "cityLong": 27.428921
+    },
+    {
+        "name": "MARDİN",
+        "cityLat": 37.321163,
+        "cityLong": 40.724477
+    },
+    {
+        "name": "MERSİN",
+        "cityLat": 36.8,
+        "cityLong": 34.633333
+    },
+    {
+        "name": "MUĞLA",
+        "cityLat": 37.215278,
+        "cityLong": 28.363611
+    },
+    {
+        "name": "MUŞ",
+        "cityLat": 38.946189,
+        "cityLong": 41.753893
+    },
+    {
+        "name": "NEVŞEHİR",
+        "cityLat": 38.69394,
+        "cityLong": 34.685651
+    },
+    {
+        "name": "NİĞDE",
+        "cityLat": 37.966667,
+        "cityLong": 34.683333
+    },
+    {
+        "name": "ORDU",
+        "cityLat": 40.983879,
+        "cityLong": 37.876411
+    },
+    {
+        "name": "OSMANİYE",
+        "cityLat": 37.213026,
+        "cityLong": 36.176261
+    },
+    {
+        "name": "RİZE",
+        "cityLat": 41.02005,
+        "cityLong": 40.523449
+    },
+    {
+        "name": "SAKARYA",
+        "cityLat": 40.693997,
+        "cityLong": 30.435763
+    },
+    {
+        "name": "SAMSUN",
+        "cityLat": 41.292782,
+        "cityLong": 36.33128
+    },
+    {
+        "name": "SİİRT",
+        "cityLat": 37.933333,
+        "cityLong": 41.95
+    },
+    {
+        "name": "SİNOP",
+        "cityLat": 42.02314,
+        "cityLong": 35.153069
+    },
+    {
+        "name": "SİVAS",
+        "cityLat": 39.747662,
+        "cityLong": 37.017879
+    },
+    {
+        "name": "ŞANLIURFA",
+        "cityLat": 37.159149,
+        "cityLong": 38.796909
+    },
+    {
+        "name": "ŞIRNAK",
+        "cityLat": 37.418748,
+        "cityLong": 42.491834
+    },
+    {
+        "name": "TEKİRDAĞ",
+        "cityLat": 40.983333,
+        "cityLong": 27.516667
+    },
+    {
+        "name": "TOKAT",
+        "cityLat": 40.316667,
+        "cityLong": 36.55
+    },
+    {
+        "name": "TRABZON",
+        "cityLat": 41.00145,
+        "cityLong": 39.7178
+    },
+    {
+        "name": "TUNCELİ",
+        "cityLat": 39.307355,
+        "cityLong": 39.438778
+
+    },
+    {
+        "name": "UŞAK",
+        "cityLat": 38.682301,
+        "cityLong": 29.40819
+    },
+    {
+        "name": "VAN",
+        "cityLat": 38.48914,
+        "cityLong": 43.40889
+    },
+    {
+        "name": "YALOVA",
+        "cityLat": 40.65,
+        "cityLong": 29.266667
+    },
+    {
+        "name": "YOZGAT",
+        "cityLat": 39.818081,
+        "cityLong": 34.81469
+    },
+    {
+        "name": "ZONGULDAK",
+        "cityLat": 41.456409,
+        "cityLong": 31.798731
+    }
+]
