@@ -15,6 +15,7 @@ class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< Updated upstream
         appBar: AppBar(title: const Text("Input")),
         body: Padding(
             padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8),
@@ -37,5 +38,42 @@ class _InputPageState extends State<InputPage> {
                   keyboardType: TextInputType.phone,
                   decoration: const InputDecoration(labelText: "Phone"))
             ])));
+=======
+      appBar: AppBar(title: const Text("Input ")),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8),
+        child: Column(
+          children: [
+            TextFormField(
+              controller: email,
+              validator: Validator.email,
+              decoration: const InputDecoration(
+                labelText: "E mail",
+              ),
+            ),
+            TextFormField(
+              focusNode: FocusNode(),
+              controller: email,
+              validator: Validator.notNullOrEmpty,
+              keyboardType: TextInputType.number,
+              decoration: const InputDecoration(
+                labelText: "Number",
+              ),
+            ),
+            FocusScope(
+              child: TextFormField(
+                controller: email,
+                validator: Validator.phone,
+                keyboardType: TextInputType.phone,
+                decoration: const InputDecoration(
+                  labelText: "Phone",
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+>>>>>>> Stashed changes
   }
 }
