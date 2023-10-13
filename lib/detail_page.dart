@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/cities/cities.dart';
 
 class DetailPage extends StatefulWidget {
-  final int index;
-  const DetailPage({super.key, required this.index});
+  final Cities city;
+  const DetailPage({super.key, required this.city});
 
   @override
   State<DetailPage> createState() => _DetailPageState();
@@ -17,11 +18,11 @@ class _DetailPageState extends State<DetailPage> {
         ),
         body: Column(
           children: [
-            const Expanded(
+            Expanded(
               flex: 2,
               child: Card(
                 child: ListTile(
-                    title: Text("Mağaza 1"),
+                    title: Text("${widget.city.name}"),
                     subtitle: Text("İstanbul mağazası"),
                     leading: Image(
                       image: AssetImage("assets/home.png"),
