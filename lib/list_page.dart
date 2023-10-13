@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/page_detail.dart';
+import 'package:flutter_application_2/detail_page.dart';
 
-class Page2 extends StatefulWidget {
-  const Page2({super.key});
+class ListPage extends StatefulWidget {
+  const ListPage({super.key});
 
   @override
-  State<Page2> createState() => _Page2State();
+  State<ListPage> createState() => _ListPageState();
 }
 
-class _Page2State extends State<Page2> {
+class _ListPageState extends State<ListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +34,7 @@ class _Page2State extends State<Page2> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const DetailPage()));
+                        builder: (context) =>  DetailPage(index: index)));
               },
             );
           },

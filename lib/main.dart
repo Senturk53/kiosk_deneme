@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/page_2.dart';
+import 'package:flutter_application_2/list_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,7 +62,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
           IconButton(
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const Page2()));
+                    MaterialPageRoute(builder: (context) => const ListPage()));
               },
               icon: const Icon(Icons.list))
         ],
