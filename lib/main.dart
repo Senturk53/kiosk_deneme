@@ -56,12 +56,17 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Take a picture'),
-      actions: [
-       IconButton(onPressed: () {
-       Navigator.push(context, MaterialPageRoute(builder: (context) => const Page2()));
-    }, icon: const Icon(Icons.list))
-      ],),
+      appBar: AppBar(
+        title: const Text('Take a picture'),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Page2()));
+              },
+              icon: const Icon(Icons.list))
+        ],
+      ),
       body: FutureBuilder<void>(
         future: _initializeControllerFuture,
         builder: (context, snapshot) {
@@ -95,6 +100,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
     );
   }
 }
+
 class DisplayPictureScreen extends StatelessWidget {
   final String imagePath;
 
