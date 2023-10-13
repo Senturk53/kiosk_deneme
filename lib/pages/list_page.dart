@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_2/cities/cities.dart';
-import 'package:flutter_application_2/detail_page.dart';
+import 'package:flutter_application_2/pages/detail_page.dart';
 
 class ListPage extends StatefulWidget {
   const ListPage({super.key});
@@ -41,8 +41,17 @@ class _ListPageState extends State<ListPage> {
                         child: Padding(
                             padding: const EdgeInsets.all(8),
                             child: ListTile(
-                              title: Text("${cities?[index].name}"),
-                            ))),
+                                leading: const Icon(Icons.home, size: 48),
+                                title: Text("${cities?[index].name}"),
+                                subtitle: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(
+                                          "Latitude: ${cities?[index].cityLat}"),
+                                      Text(
+                                          "Longitude: ${cities?[index].cityLong}")
+                                    ])))),
                     onTap: () {
                       Navigator.push(
                           context,
@@ -59,13 +68,11 @@ class _ListPageState extends State<ListPage> {
 }
 
 Future<List<Cities>> citiesData() async {
-  int counter = 0;
   List<Cities> cityData = [];
   final String response = await rootBundle.loadString('lib/cities/cities.json');
   final data = await json.decode(response);
   for (var element in (data as List)) {
     cityData.add(Cities.fromJson(element));
-    counter++;
   }
   return cityData;
 }
