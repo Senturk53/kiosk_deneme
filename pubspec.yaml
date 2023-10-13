@@ -19,6 +19,8 @@ dependencies:
   path_provider: ^2.1.1
   image_picker: ^1.0.4
   image_picker_platform_interface: ^2.9.1
+  retrofit: ^4.0.1
+  injectable: ^2.3.0
 
 
 
@@ -27,9 +29,12 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  retrofit_generator: ^7.0.8
+  json_annotation: ^4.8.1
+  injectable_generator: ^2.4.0
 
 
-# The following section is specific to Flutter packages.
 flutter:
   assets:
     - assets/
