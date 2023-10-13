@@ -15,30 +15,6 @@ class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-<<<<<<< Updated upstream
-        appBar: AppBar(title: const Text("Input")),
-        body: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8),
-            child: Column(children: [
-              TextFormField(
-                  autovalidateMode: AutovalidateMode.always,
-                  controller: email,
-                  validator: Validator.email,
-                  decoration: const InputDecoration(labelText: "E mail")),
-              TextFormField(
-                  controller: number,
-                  validator: Validator.notNullOrEmpty,
-                  keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(labelText: "Number"),
-                  autovalidateMode: AutovalidateMode.always),
-              TextFormField(
-                  autovalidateMode: AutovalidateMode.always,
-                  controller: phone,
-                  validator: Validator.storePhone,
-                  keyboardType: TextInputType.phone,
-                  decoration: const InputDecoration(labelText: "Phone"))
-            ])));
-=======
       appBar: AppBar(title: const Text("Input ")),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8),
@@ -53,7 +29,7 @@ class _InputPageState extends State<InputPage> {
             ),
             TextFormField(
               focusNode: FocusNode(),
-              controller: email,
+              controller: number,
               validator: Validator.notNullOrEmpty,
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
@@ -61,8 +37,9 @@ class _InputPageState extends State<InputPage> {
               ),
             ),
             FocusScope(
+              
               child: TextFormField(
-                controller: email,
+                controller: phone,
                 validator: Validator.phone,
                 keyboardType: TextInputType.phone,
                 decoration: const InputDecoration(
@@ -74,6 +51,5 @@ class _InputPageState extends State<InputPage> {
         ),
       ),
     );
->>>>>>> Stashed changes
   }
 }
